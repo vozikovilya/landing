@@ -668,6 +668,8 @@ img {
     letter-spacing: 0.5%;
     color: #26333A;
     margin-bottom: 60px; }
+  .section-sources__title.questions {
+    margin-top: 80px;}
   .section-sources__item {
     display: flex;
     align-items: flex-start;
@@ -1351,6 +1353,11 @@ img {
       letter-spacing: 0.5%;
       color: #26333A;
       margin-bottom: 30px; }
+    .section-sources__title.questions {
+      padding: 0 16px;
+      margin-top: 40px; }
+      .section-sources__list.questions {
+        padding: 0 16px;}
     .section-sources__number {
       margin-right: 16px; }
     .section-sources__content {
