@@ -5,13 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Landing</title>
         <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous"/>
         <link rel="stylesheet" href="./css/styles/main.min.css">
         <link rel="stylesheet" href="./css/styles/questions.min.css">
     </head>
     <body class="body">
-        <div class="wrapper">
-            <header class="header">
+        <div class="wrapper" id="wrapper">
+            <header class="header"  id="header">
                 <span class="header__bg-dark"></span>
                 <img class="header__logo" src="./img/mmp.png" alt="Логотип">
 
@@ -120,8 +121,8 @@
                         <h2 class="section-sources__title questions">Источники информации</h2>
     
                         <ul class="section-sources__list questions">
-                            <li class="section-sources__item">
-                                <a href="#" name="footnote-1" class="section-sources__number">1</a>
+                            <li class="section-sources__item" id="footnote-1">
+                                <div class="section-sources__number">1</div>
     
                                 <div class="section-sources__content">
                                     <div class="section-sources__left-block">
@@ -129,8 +130,8 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="section-sources__item">
-                                <a href="#" name="footnote-2" class="section-sources__number">2</a>
+                            <li class="section-sources__item" id="footnote-2">
+                                <div class="section-sources__number">2</div>
     
                                 <div class="section-sources__content">
                                     <div class="section-sources__left-block">
@@ -138,8 +139,8 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="section-sources__item">
-                                <a href="#" name="footnote-3" class="section-sources__number">3</a>
+                            <li class="section-sources__item" id="footnote-3">
+                                <div class="section-sources__number">3</div>
     
                                 <div class="section-sources__content">
                                     <div class="section-sources__left-block">
@@ -154,8 +155,8 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="section-sources__item">
-                                <a href="#" name="footnote-4" class="section-sources__number">4</a>
+                            <li class="section-sources__item" id="footnote-4">
+                                <div class="section-sources__number">4</div>
     
                                 <div class="section-sources__content">
                                     <div class="section-sources__left-block">
@@ -163,8 +164,8 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="section-sources__item">
-                                <a href="#" name="footnote-5" class="section-sources__number">5</a>
+                            <li class="section-sources__item" id="footnote-5">
+                                <div class="section-sources__number">5</div>
     
                                 <div class="section-sources__content">
                                     <div class="section-sources__left-block">
@@ -172,8 +173,8 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="section-sources__item">
-                                <a href="#" name="footnote-6" class="section-sources__number">6</a>
+                            <li class="section-sources__item" id="footnote-6">
+                                <div class="section-sources__number">6</div>
     
                                 <div class="section-sources__content">
                                     <div class="section-sources__left-block">
@@ -422,6 +423,7 @@
                 </section>
             </main>
         </div>
+        <footer></footer>
         <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
         <script src="./js/index.min.js"></script>
     </body>
