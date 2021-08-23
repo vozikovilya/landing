@@ -1138,7 +1138,7 @@ img {
       color: #1479BE;
       max-width: 136px; }
   .section-disease {
-    padding: 40px 16px 56px; }
+    padding: 56px 16px 0; }
     .section-disease__container:last-child {
       margin-bottom: 0; }
     .section-disease__title {
@@ -1169,7 +1169,7 @@ img {
       .section-disease__text:last-child {
         margin-bottom: 0; }
   .section-combined-vaccine {
-    padding: 0 16px 56px; }
+    padding: 56px 16px 0; }
     .section-combined-vaccine__title {
       font-weight: 700;
       font-size: 20px;
@@ -1184,7 +1184,7 @@ img {
       letter-spacing: 0;
       color: #26333A; }
   .section-immunogen-vaccine {
-    padding: 0 16px 56px; }
+    padding: 56px 16px 0; }
     .section-immunogen-vaccine__title {
       font-weight: 700;
       font-size: 20px;
@@ -1218,7 +1218,7 @@ img {
         font-size: 36px;
         line-height: 48px; }
   .section-efficiency {
-    padding: 0 16px 56px; }
+    padding: 56px 16px 0; }
     .section-efficiency__title {
       font-weight: 700;
       font-size: 20px;
@@ -1256,7 +1256,7 @@ img {
       font-size: 36px;
       line-height: 48px; }
   .section-vaccination {
-    padding: 0 16px 56px; }
+    padding: 56px 16px 0; }
     .section-vaccination__title {
       font-weight: 700;
       font-size: 20px;
@@ -1271,7 +1271,7 @@ img {
       letter-spacing: 0;
       color: #26333A; }
   .section-calendar {
-    padding: 0 16px 56px; }
+    padding: 56px 16px 0; }
     .section-calendar__title {
       font-weight: 700;
       font-size: 20px;
@@ -1286,7 +1286,7 @@ img {
       letter-spacing: 0;
       color: #26333A; }
   .section-indications {
-    padding: 0 16px 56px; }
+    padding: 56px 16px 0; }
     .section-indications__title {
       font-weight: 700;
       font-size: 20px;
@@ -1307,7 +1307,7 @@ img {
       letter-spacing: 0;
       color: #26333A; }
   .section-prevention {
-    padding: 0 16px 56px; }
+    padding: 56px 16px 0; }
     .section-prevention__title {
       font-weight: 700;
       font-size: 20px;
@@ -1328,7 +1328,7 @@ img {
       letter-spacing: 0;
       color: #26333A; }
   .section-application {
-    padding: 0 16px 56px; }
+    padding: 56px 16px 0; }
     .section-application__title {
       font-weight: 700;
       font-size: 20px;
@@ -1351,7 +1351,7 @@ img {
       letter-spacing: 0;
       color: #26333A; }
   .section-sources {
-    padding: 0 16px 56px; }
+    padding: 56px 16px 0; }
     .section-sources__title {
       font-weight: 700;
       font-size: 20px;
@@ -1387,7 +1387,7 @@ img {
     .section-sources__access, .section-sources__date {
       color: #8E8E8E; }
   .section-info {
-    padding: 0 16px 56px; }
+    padding: 56px 16px 0; }
     .section-info__title {
       font-weight: 700;
       font-size: 20px;
