@@ -1440,13 +1440,7 @@ footer {
 } */
 
 footer {
-  height: 300px;
-  background-color: red;
-}
-
-.product-block__ssi--full-width-article {
-  height: 300px;
-  background-color: green;
+  height: auto;
 }
 
 .section-elementary__user li {
